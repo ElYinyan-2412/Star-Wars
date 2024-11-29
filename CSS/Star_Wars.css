@@ -1,0 +1,162 @@
+/* Navegacion paginas */
+
+nav li  {
+    list-style: none;
+    display: inline-block;
+    padding: 4px 70px;
+    background-color: transparent;  
+}
+
+button{
+    list-style: none;
+    display: inline-block;
+    padding: 4px 70px;
+    text-align: center;
+    background-color: transparent;
+    box-shadow: 0px 0px 30px yellow;
+    border-radius: 20px;
+    color: white;
+}
+
+nav li:hover {
+    transform: scale(1.05);
+}
+
+.customnav {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;  
+}
+
+nav{
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+.Nouso{
+    color: #ffe81f;
+}
+
+
+.espadar_laser{
+    text-align: center;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Las listas */
+
+ul {
+    padding: 0px;
+}
+
+li{
+    padding-left: 5px;
+    margin-left: 25px;
+}
+
+
+
+/* Enlaces */
+
+a:hover {
+    color: red;
+}
+
+a {
+    color: #ffe81f;
+}
+
+
+/* Titulos  */
+h2 {
+    text-align: center;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffe81f;
+}
+
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1,h2,h5 {
+    color: #ffe81f;
+    font-family: "star wars";
+}
+header{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-bottom: 45px;
+}
+
+
+/* Contenido body */
+
+#contenido {
+    width: 1695px;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url(Imagenes/fondo.png);
+    font-family: monospace;
+}
+
+footer {
+    clear: both;
+    text-align: left;
+}
+
+
+/* Contenido de articulos */
+
+.box-info {
+    width: 60%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25px;
+    border-radius: 20px;
+    border: solid;
+    border-color: transparent;
+    background-color: transparent;
+    color: white;
+    
+}
+
+
+/* Estilo de letras */
+
+@font-face {
+    font-family: "star wars";
+    src: url(Imagenes/starjedi/Starjhol.ttf);
+}
+
+/* Imagenes */
+
+
+.imgG{
+    float: left;
+    width: 15%;
+}
+
+.imgP{
+   float: left;
+   width: 5%;
+   padding: 5px;
+}
+
+.Lista{
+    padding-left: 5px;
+    margin-left: 20%;
+}
