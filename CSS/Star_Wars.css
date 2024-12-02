@@ -1,22 +1,12 @@
 /* Navegacion paginas */
 
-nav li  {
+nav li {
     list-style: none;
     display: inline-block;
     padding: 4px 70px;
-    background-color: transparent;  
+    background-color: transparent;
 }
 
-button{
-    list-style: none;
-    display: inline-block;
-    padding: 4px 70px;
-    text-align: center;
-    background-color: transparent;
-    box-shadow: 0px 0px 30px yellow;
-    border-radius: 20px;
-    color: white;
-}
 
 nav li:hover {
     transform: scale(1.05);
@@ -25,10 +15,10 @@ nav li:hover {
 .customnav {
     margin-left: auto;
     margin-right: auto;
-    width: fit-content;  
+    width: fit-content;
 }
 
-nav{
+nav {
     background-color: transparent;
     margin-left: auto;
     margin-right: auto;
@@ -37,12 +27,12 @@ nav{
 }
 
 
-.Nouso{
+.Nouso {
     color: #ffe81f;
 }
 
 
-.espadar_laser{
+.espadar_laser {
     text-align: center;
     width: 30%;
     margin-left: auto;
@@ -56,11 +46,10 @@ ul {
     padding: 0px;
 }
 
-li{
+li {
     padding-left: 5px;
     margin-left: 25px;
 }
-
 
 
 /* Enlaces */
@@ -84,15 +73,18 @@ h3 {
     color: #ffe81f;
 }
 
-h4{
+h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h1,h2,h5 {
+h1,
+h2,
+h5 {
     color: #ffe81f;
     font-family: "star wars";
 }
-header{
+
+header {
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
@@ -115,6 +107,7 @@ body {
 footer {
     clear: both;
     text-align: left;
+    margin-top: 50px;
 }
 
 
@@ -131,9 +124,21 @@ footer {
     border-color: transparent;
     background-color: transparent;
     color: white;
-    
+
 }
 
+.box-info-Merchandising {
+    width: 60%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25px;
+    border-radius: 20px;
+    border: solid;
+    border-color: transparent;
+    background-color: transparent;
+    color: white;
+}
 
 /* Estilo de letras */
 
@@ -145,18 +150,52 @@ footer {
 /* Imagenes */
 
 
-.imgG{
+.imgG {
     float: left;
-    width: 15%;
+    width: 20%;
 }
 
-.imgP{
-   float: left;
-   width: 5%;
-   padding: 5px;
+.imgG2 {
+    float: left;
+    width: 17%;
 }
 
-.Lista{
+.imgG3 {
+    float: left;
+    width: 17%;
+}
+
+.texto-imagen{
     padding-left: 5px;
-    margin-left: 20%;
+    margin-left: 20%; 
+}
+
+
+/* Botones */
+
+button {
+    list-style: none;
+    display: inline-block;
+    padding: 4px 70px;
+    text-align: center;
+    background-color: transparent;
+    box-shadow: 0px 0px 30px yellow;
+    border-radius: 20px;
+    color: white;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+.button-box{
+    list-style: none;
+    display: inline-block;
+    padding: 4px 70px;
+    text-align: center;
+    background-color: transparent;
+    box-shadow: 0px 0px 30px green;
+    border-radius: 20px;
+    color: white;
+    
 }
