@@ -18,6 +18,10 @@ nav li:hover {
     width: fit-content;
 }
 
+.Nouso {
+    color: #ffe81f;
+}
+
 nav {
     background-color: transparent;
     margin-left: auto;
@@ -25,12 +29,6 @@ nav {
     border-radius: 20px;
     text-align: center;
 }
-
-
-.Nouso {
-    color: #ffe81f;
-}
-
 
 .espadar_laser {
     text-align: center;
@@ -181,5 +179,7 @@ button:hover{
     box-shadow: 0px 0px 30px green;
     border-radius: 20px;
     float: right;
-    color: white;      
+    color:#ffe81f;      
 }
+
+/* Formulario */
