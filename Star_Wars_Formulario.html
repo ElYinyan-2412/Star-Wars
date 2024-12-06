@@ -20,43 +20,15 @@
     </header>
 
     <nav>
-        <div class="customnav">
+        <div class="customnav-for">
 
             <ul>
-
-                <li>
-                    <button onclick="document.location=''">
-                        <img src="CSS/Imagenes/Inicio2.png" align="center" width="50.5px">
-                        <p class="Nouso">
-                            Inicio
-                        </p>
-                    </button>
-                </li>
-
-                <li>
-                    <button onclick="document.location='Star_Wars_Argumento.html'">
-                        <img src="CSS/Imagenes/argumento.png" align="center" width="63,5px">
-                        <p class="Nouso">
-                            Argumento
-                        </p>
-                    </button>
-                </li>
-
-                <li>
-                    <button onclick="document.location='Star_Wars_Pelis.html'">
-                    <img src="CSS/Imagenes/Peli.png" align="center" width="50.5px">
-                    <p class="Nouso">
-                        Pelicula
-                    </p>
-                    </button>
-                </li>
-
                 <li>
                     <button onclick="document.location='Star_Wars_Merchandising.html'">
-                    <img src="CSS/Imagenes/Merchandising.png" align="center" width="50.5px">
-                    <p class="Nouso">
-                        Merchandising
-                    </p>
+                        <img src="CSS/Imagenes/Merchandising.png" align="left" width="50.5px">
+                        <p class="Nouso">
+                            Volver
+                        </p>
                     </button>
                 </li>
             </ul>
@@ -73,7 +45,30 @@
 
         <article>
             <div class="box-info">
-                <form action=""></form>
+                <form action="enviarmail.php" method="post">
+                    <fieldset>
+                        <legend>Formulario de compra</legend>
+                        <div>
+                            <label for="Nombre">Su nombre:</label>
+                            <input type="text" id="Nombre" name="Nombre" value="" placeholder="Escribe tu nombre aquí."><br><br>
+                        </div>
+                        <div>
+                            <label for="Correo">Correo electrónico:</label>
+                            <input type="text" id="Correo" name="Correo" value="" placeholder="Escribe tu Correo aquí."><br><br>
+                        </div>
+                        <div>
+                            <label for="Producto">Producto que desee:</label>
+                            <select id="Producto" name="Producto"><br>
+                                <option value="C-3PO" selected>Funko Pop C-3PO</option>
+                                <option value="Dart-Vader-1">Funko Pop Darth Vader con luz y sonido</option>
+                                <option value="Han-Solo">Funko Pop Han Solo Carbonita Star Wars</option>
+                                <option value="Dart-Vader-2">Funko Pop Star Wars Dart Vader Electrocutado</option>
+                            </select><br><br>
+                        </div>
+                        
+                    </fieldset>
+
+                </form>
         </article>
     </section>
 

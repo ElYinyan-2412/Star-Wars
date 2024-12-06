@@ -5,6 +5,7 @@ nav li {
     display: inline-block;
     padding: 4px 70px;
     background-color: transparent;
+    position: static;
 }
 
 
@@ -16,6 +17,15 @@ nav li:hover {
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
+    
+}
+
+
+.customnav-for{
+    margin-left: 0%;
+    margin-right: auto;
+    width: fit-content;
+    position: fixed;
 }
 
 .Nouso {
