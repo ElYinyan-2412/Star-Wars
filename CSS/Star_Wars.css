@@ -216,3 +216,19 @@ label{
 input {
     margin: 8px;
 }
+
+/* Gogle Maps */
+
+.google-map{
+    padding-left: 33%;
+}
+
+/* Síguenos */
+
+tr{
+    text-align: center;
+}
+
+table{
+    margin: auto;
+}
