@@ -50,25 +50,84 @@
                         <legend>Formulario de compra</legend>
                         <div>
                             <label for="Nombre">Su nombre:</label>
-                            <input type="text" id="Nombre" name="Nombre" value="" placeholder="Escribe tu nombre aquí."><br><br>
+                            <input type="text" id="Nombre" name="Nombre" value=""
+                                placeholder="Escribe tu nombre aquí." required><br><br>
                         </div>
                         <div>
                             <label for="Correo">Correo electrónico:</label>
-                            <input type="text" id="Correo" name="Correo" value="" placeholder="Escribe tu Correo aquí."><br><br>
+                            <input type="email" id="Correo" name="Correo" value=""
+                                placeholder="Escribe tu Correo aquí." required><br><br>
                         </div>
+
                         <div>
-                            <label for="Producto">Producto que desee:</label>
-                            <select id="Producto" name="Producto"><br>
-                                <option value="C-3PO" selected>Funko Pop C-3PO</option>
-                                <option value="Dart-Vader-1">Funko Pop Darth Vader con luz y sonido</option>
-                                <option value="Han-Solo">Funko Pop Han Solo Carbonita Star Wars</option>
-                                <option value="Dart-Vader-2">Funko Pop Star Wars Dart Vader Electrocutado</option>
+                            <label for="Pago">Tipo de pago:</label>
+                            <select id="Pago" name="Producto"><br>
+                                <option value="TransfBa"> Transferencia Bancaria</option>
+                                <option value="TarjetaCre" selected>Tarjeta de Crédito y Débito</option>
+                                <option value="Paypal">Por PayPal</option>
+                                <option value="TarjetaPre">Tarjetade Prepago</option>
                             </select><br><br>
                         </div>
-                        
+
+                        <div>
+                            <label for="C-3PO">Producto que desee:</label>
+                            <ul style="list-style: none;">
+                                <li>
+                                    <input type="checkbox" id="C-3PO">Funko Pop C-3PO, Precio 13,56 €
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" id="Dart-Vader-1">Funko Pop Darth Vader con luz y sonido,
+                                    Precio 23,96 €
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" id="Han-Solo">Funko Pop Han Solo Carbonita Star Wars, Precio
+                                    12,76€
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" id="Dart-Vader-2">Funko Pop Star Wars Dart Vader
+                                    Electrocutado,
+                                    Precio 13,56 €
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <label for="Cant">Cantidad del productos (Min: 1, Max: 10):</label>
+                            <input type="number" id="Cant" name="Cant" min="1" max="10"> 
+                            <br><br>
+                        </div>
+
+                        <div>
+                            <label for="local">Vivienda:</label>
+                            <textarea id="local" name="local" value=""
+                                placeholder="Indica la calle, Nº de vivienda o Nº Bloque, Plata, y Nº Departamento "></textarea><br><br>
+                        </div>
+
+                        <div>
+                            <label for="fav">Te agustado Mi pagina Web</label>
+                            <ul style="list-style: none;">
+                                <li>
+                                    <input type="radio" id="Like" name="fav">
+                                    <label for="Like">Me gusta 👍</label>
+                                </li>
+
+                                <li>
+                                    <input type="radio" id="DisLike" name="fav">
+                                    <label for="DisLike">No me gusta 👎</label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <input type="submit" value="Enviar incidencia">
+                            <input type="reset" value="Borrar formulario">
+                        </div>
                     </fieldset>
 
                 </form>
+            </div>
         </article>
     </section>
 

@@ -193,3 +193,26 @@ button:hover{
 }
 
 /* Formulario */
+
+fieldset {
+    width: 50%;
+    background-color: transparent;
+    color: white;
+    border: 3px solid #ffe81f;
+    border-radius: 20px;
+    margin: auto;
+}
+
+legend {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffe81f;
+    font-weight: bolder;
+}
+
+label{
+    color: white;
+}
+
+input {
+    margin: 8px;
+}
